@@ -11,7 +11,7 @@
 body {
   background-image: url("wakanda.png");
   background-repeat: no-repeat;
-  background-size: 125%;
+  background-size: cover;
   font-family: 'Fjalla One', sans-serif;
 }
 
@@ -30,6 +30,11 @@ body {
 }
 
 #current-date-display,
-#current-time-display {
+#current-time-display,
+#current-date-alternate-display {
+  color: white;
+}
+
+.white {
   color: white;
 }
