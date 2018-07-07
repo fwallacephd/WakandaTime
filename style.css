@@ -1,0 +1,35 @@
+/* Google Font
+ * font-family: 'Fjalla One', sans-serif;
+ */
+
+@font-face {
+  font-family: BlackPanther;
+  src: url(blackpanther.ttf);
+}
+
+/* Background */
+body {
+  background-image: url("wakanda.png");
+  background-repeat: no-repeat;
+  background-size: 125%;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.title {
+  font-family: BlackPanther;
+  font-size: 70px;
+}
+
+#date-display {
+  font-size: 25px;
+  margin-left: 2%;
+}
+
+#date-display, p {
+  color: black;
+}
+
+#current-date-display,
+#current-time-display {
+  color: white;
+}
