@@ -7,5 +7,7 @@ let eDisplayTime = document.getElementById('current-time-display');
 eDisplayTime.innerHTML = NowMoment.format('h:mm:ss a');
 
 let eAlternateDisplay = document.getElementById('current-date-alternate-display');
-eAlternateDisplay.innerHTML = NowMoment.format('MM-DD-YY, h:mm a');
-//
+eAlternateDisplay.innerHTML = NowMoment.format('MM-DD-YY, h:mm a, Z');
+
+let hour = moment().hour();
+console.log (hour);
