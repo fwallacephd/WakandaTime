@@ -5,4 +5,7 @@ eDisplayDate.innerHTML = NowMoment.format("dddd, MMMM Do YYYY");
 
 let eDisplayTime = document.getElementById('current-time-display');
 eDisplayTime.innerHTML = NowMoment.format('h:mm:ss a');
+
+let eAlternateDisplay = document.getElementById('current-date-alternate-display');
+eAlternateDisplay.innerHTML = NowMoment.format('MM-DD-YY, h:mm a');
 //
